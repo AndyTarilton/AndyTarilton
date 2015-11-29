@@ -1,0 +1,12 @@
+.border-radius (@value) {
+-webkit-border-radius: @value;
+-moz-border-radius: @value;
+border-radius: @value;
+background-clip: padding-box;
+}
+.slighty-rounded {
+ .border-radius(2px);
+}
+.very-rounded {
+ .border-radius(16px);
+}
